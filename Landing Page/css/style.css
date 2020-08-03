@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato',
+    sans-serif;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding: 20px;
+    background: lightslategrey;
+}
+
+div > h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* font-weight: 700; */
+    color: white;
+}
+h1 > a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.main-nav{
+    margin-left: auto;
+}
+
+.main-nav a{
+    display: inline-block;
+    padding-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+a:hover, a:focus{
+    color: orange;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2853&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: lightslategray;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+}
